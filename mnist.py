@@ -104,7 +104,7 @@ model.summary()
 
 temp=1
 while (count >= temp ):
-    model.add(Dense(units=neuron*count, activation='relu'))
+    model.add(Dense(units=neuron*temp, activation='relu'))
     temp+=1
 
 
@@ -131,7 +131,7 @@ model.summary()
 
 
 with open('/var/www/html/index.html','w') as fh:
-    model.summary(print_fn=lambda x: fh.write(x + '\n'))
+    model.summary(print_fn=lambda x: fh.write(x + "<br/>\n"))
 
 
 # In[ ]:

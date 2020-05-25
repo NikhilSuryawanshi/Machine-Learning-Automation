@@ -20,7 +20,7 @@ count+=1
 # In[3]:
 
 
-neuron*=2
+
 
 
 # In[4]:

@@ -1,8 +1,8 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-file= open("/ml/conf.txt", "r")
-acc=int(file.read())
+file= open("/ml/accuracy.txt", "r")
+acc=float(file.read())
 acc*=100
 file.close()
 host_address = "rakeshyadav120500@gmail.com"

@@ -2,7 +2,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 file= open("/ml/accuracy.txt", "r")
-acc=int(file.read())
+acc=float(file.read())
 acc*=100
 file.close()
 host_address = "rakeshyadav120500@gmail.com"
