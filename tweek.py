@@ -4,7 +4,7 @@
 # In[1]:
 
 
-file= open("conf.txt", "r")
+file= open("/ml/conf.txt", "r")
 count=int(file.readline())
 neuron=int(file.readline())
 epoch=int(file.readline())
@@ -32,7 +32,7 @@ epoch*=2
 # In[5]:
 
 
-file= open("conf.txt", "w")
+file= open("/ml/conf.txt", "w")
 file.write(str(count)+"\n"+str(neuron)+"\n"+str(epoch))
 file.close()
 
