@@ -11,8 +11,8 @@ from keras.layers import Dense
 from keras.utils.np_utils import to_categorical
 import random
 import pandas as pd
-from keras.optimizers import RMSprop
-
+#from keras.optimizers import RMSprop
+from tensorflow.keras.optimizers import RMSprop
 
 # In[2]:
 
