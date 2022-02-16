@@ -1,5 +1,9 @@
+
 FROM centos:7
-RUN yum install  -y zlib python36 epel-release python36-devel httpd \
-&& yum groupinstall -y "Development tools" && python3 -m pip3 install pip3==19.3.1
-RUN pip3 install keras numpy pandas pillow  tensorflow secure-smtplib
-RUN httpd
+RUN yum install -y python36-pip python36-setuptools python36 epel-release python36-devel httpd \
+&& yum groupinstall -y "Development tools"
+RUN easy_install-3.6 pip==19.3.1
+RUN pip3 install keras==2.6.0
+RUN pip3 install numpy pandas pillow opencv-python secure-smtplib
+RUN pip3 install tensorflow
+RUN httpd &
