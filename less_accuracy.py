@@ -5,9 +5,9 @@ file= open("/ml/accuracy.txt", "r")
 acc=float(file.read())
 acc*=100
 file.close()
-host_address = "**********@gmail.com"
-host_pass = "**********"
-guest_address = "**********@gmail.com"
+host_address = "clanofking001@gmail.com"
+host_pass = "rkormbpckfrvmlkn"
+guest_address = "yashbarange14@gmail.com"
 subject = "Regarding failure of main.py having less accuracy then the desired one"
 content = '''Dear Admin, 
 				Your trained model has not given best accuracy .It runed again by doing some changes.
