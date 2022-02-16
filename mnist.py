@@ -162,7 +162,7 @@ h = model.fit(X_train, y_train_cat, epochs=epoch)
 
 
 a=h.history['accuracy'][-1]
-a=format(a,".2f")
+a=round(a, 2)
 
 # In[ ]:
 
