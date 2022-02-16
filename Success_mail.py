@@ -5,9 +5,9 @@ file= open("/ml/accuracy.txt", "r")
 acc=float(file.read())
 acc*=100
 file.close()
-host_address = "**********@gmail.com"
-host_pass = "**********"
-guest_address = "**********@gmail.com"
+host_address = "clanofking001@gmail.com"
+host_pass = "rkormbpckfrvmlkn"
+guest_address = "yashbarange14@gmail.com"
 subject = "Regarding Success of your model "
 content = '''Dear Admin, 
 				Your trained model has given best accuracy .
