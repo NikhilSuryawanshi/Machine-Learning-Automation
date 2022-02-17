@@ -6,6 +6,7 @@
 
 file= open("/ml/conf.txt", "r")
 count=int(file.readline())
+
 neuron=int(file.readline())
 epoch=int(file.readline())
 file.close()
